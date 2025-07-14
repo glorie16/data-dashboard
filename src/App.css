@@ -1,3 +1,9 @@
+.pet-list {
+  list-style: none;        /* Removes bullet points */
+  padding: 0;              /* Removes default padding */
+  margin: 0;               /* Removes default margin */
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
