@@ -47,7 +47,11 @@ Video created with...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+NOTE: Had to create a small backend server because the Petfinder API I used is an OAuth API. Cors kept blocking my API calls but 
+creating a backend resolved this. Code is in the server folder.
+
+- It was difficult making the filters work properly together without crashing.
+- It was also difficult to understand how to get around errors with my API.
 
 ## License
 
