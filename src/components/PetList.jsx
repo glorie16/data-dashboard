@@ -16,9 +16,8 @@ function PetList({ pets }) {
               width="200"
             />
           )}
-          <p>{pet.breeds.primary}</p>
+              <p>{pet.breeds.primary} | {pet.type}</p>
               <p> {pet.gender} | {pet.age}</p>
-              <p>{pet.description?.slice(0, 50)}...</p>
         </li>
       ))}
     </ul>

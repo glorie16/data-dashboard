@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import PetList from './components/PetList'
+import Summary from './components/Summary'
 import './App.css'
 
 function App() {
@@ -26,11 +27,15 @@ function App() {
     pets.forEach(pet => console.log(pet.name))
   return (
     <div>
-       <h1>Adoptable Pets</h1>
+      <h1>Adoptable Pets</h1>
+      <Summary
+        pets={pets}>
+      </Summary>
       <PetList
         pets={pets}
       ></PetList>
-      </div>
+      
+    </div>
   )
 }
 
