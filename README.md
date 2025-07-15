@@ -4,7 +4,7 @@ Submitted by: **Gloriele Mendoza**
 
 This web app: **allows users to search for adoptable pets. Filters can be added to narrow search.**
 
-Time spent: **X** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
@@ -17,18 +17,18 @@ The following **required** functionality is completed:
 - [X] **The app dashboard includes at least three summary statistics about the data** 
   - The app dashboard includes at least three summary statistics about the data, such as:
     - *insert details here*
-- [ ] **A search bar allows the user to search for an item in the fetched data**
+- [X] **A search bar allows the user to search for an item in the fetched data**
   - The search bar **correctly** filters items in the list, only displaying items matching the search query
   - The list of results dynamically updates as the user types into the search bar
-- [ ] **An additional filter allows the user to restrict displayed items by specified categories**
+- [X] **An additional filter allows the user to restrict displayed items by specified categories**
   - The filter restricts items in the list using a **different attribute** than the search bar 
   - The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
   - The dashboard list dynamically updates as the user adjusts the filter
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types
+- [X] Multiple filters can be applied simultaneously
+- [X] Filters use different input types
   - e.g., as a text input, a dropdown or radio selection, and/or a slider
 - [ ] The user can enter specific bounds for filter values
 
@@ -38,16 +38,12 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Video Link on Imgur:
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+Video created with...
+- Zoom for recording
+- Uploaded onto Imgur
 
 ## Notes
 
