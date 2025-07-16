@@ -22,7 +22,6 @@ function PetList({ pets }) {
           )}
               <p>{pet.breeds.primary} | {pet.type}</p>
               <p> {pet.gender} | {pet.age}</p>
-              <p>{pet.status}</p>
         </li>
       ))}
     </ul>

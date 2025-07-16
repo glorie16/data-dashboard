@@ -1,4 +1,4 @@
-function Filters({ setSearchInput, setSelectedAge }) {
+function Filters({ setSearchInput, setSelectedAge, searchInput, selectedAge }) {
     const ageGroups = ['Baby', 'Young', 'Adult', 'Senior']
 
     const handleInputChange = (e) => {
@@ -11,27 +11,40 @@ function Filters({ setSearchInput, setSelectedAge }) {
     
 
     return (
-    <div className="filters">
-        <h2>Filters</h2>
+        <div className="filters">
+            
+            <button onClick={() => {
+            setSearchInput('');
+            setSelectedAge('');
+            }}>
+            Clear Filters
+            </button>
+            <div className="by-type">
+                <h2>Filter By Pet Type</h2>
+            
         <input
         type="text"
                 placeholder="Search by pet type..."
         onChange={handleInputChange}
-        //onChange={(inputString) => searchItems(inputString.target.value)}
-            />
+        value={searchInput}
+                />
+                </div>
 
+            <div className="by-age">
             <h2>Age Range</h2>
             {ageGroups.map(age => (
                 <label key={age}>
                     <input
                     type="radio"
                     name="age"
-                    value={age}
+                        value={age}
+                        checked={selectedAge === age}
                     onChange={handleAgeChange}
                     />
                     {age}
                 </label>
-                ))}
+            ))}
+                </div>
         </div>
 )
 

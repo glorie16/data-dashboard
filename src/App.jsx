@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import PetList from './components/PetList'
 import Summary from './components/Summary'
 import './App.css'
@@ -50,18 +50,23 @@ function App() {
 };
   
   return (
-    <div>
-      <h1>Adoptable Pets</h1>
-      <Filters
-        
+    <div className="app-container">
+            <h1 className="title">Adoptable Pets</h1>
+         <Filters className="filters"
+        searchInput={searchInput}
+        selectedAge={selectedAge}
         setSearchInput={setSearchInput}
-      setSelectedAge={setSelectedAge}/>
-      <Summary
+        setSelectedAge={setSelectedAge}/>
+     
+      <div className="main-items">
+    <Summary
         pets={pets}>
       </Summary>
+      
       <PetList
-        pets={filteredResults}
-      ></PetList>
+        pets={filteredResults ||[]}
+        ></PetList>
+        </div>
       
     </div>
   )
