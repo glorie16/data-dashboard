@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Video Link on Imgur:
+Video (WITH SOUND) Link on Imgur:
 https://imgur.com/a/fWSTitj
 
 <!-- Replace this with whatever GIF tool you used! -->
