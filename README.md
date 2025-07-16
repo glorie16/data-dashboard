@@ -39,6 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Video Link on Imgur:
+https://imgur.com/a/fWSTitj
 
 <!-- Replace this with whatever GIF tool you used! -->
 Video created with...
@@ -47,8 +48,8 @@ Video created with...
 
 ## Notes
 
-NOTE: Had to create a small backend server because the Petfinder API I used is an OAuth API. Cors kept blocking my API calls but 
-creating a backend resolved this. Code is in the server folder.
+NOTE: Had to create a small backend server because the Petfinder API I used is an OAuth API. Kept getting a CORS block error
+but creating a backend resolved this. Code for backend is in the server folder.
 
 - It was difficult making the filters work properly together without crashing.
 - It was also difficult to understand how to get around errors with my API.
